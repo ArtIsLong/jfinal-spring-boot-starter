@@ -1,1 +1,1 @@
-# Auto Configureorg.springframework.boot.autoconfigure.EnableAutoConfiguration=\com.github.jfinal.config.SpringJfinalConfiguration
+# Auto Configureorg.springframework.boot.autoconfigure.EnableAutoConfiguration=\com.github.artislong.config.SpringJfinalConfiguration
