@@ -1,5 +1,3 @@
-[TOC]
-
 # 简介
 
 一个极为巧合的情况下接触到了JFinal，但是由于本人的技术栈一直以来都是以SpringBoot为主，所以还是希望能够将JFinal集成到SpringBoot中去使用，毕竟Spring的生态还是无比健全的。当前的一些教程，基本都是比较浅的集成方式，SpringBoot与JFinal集成到一起，结果还是各是各的，互不相通，故而此starter的产生。
