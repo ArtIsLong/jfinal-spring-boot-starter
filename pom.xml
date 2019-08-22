@@ -13,6 +13,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-boot.version>2.1.7.RELEASE</spring-boot.version>
+        <jfinal.version>4.3</jfinal.version>
+        <guava.version>28.0-jre</guava.version>
+        <cron4j.version>2.2.5</cron4j.version>
     </properties>
 
     <licenses>
@@ -58,7 +61,7 @@
         <dependency>
             <groupId>com.jfinal</groupId>
             <artifactId>jfinal</artifactId>
-            <version>4.3</version>
+            <version>${jfinal.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -76,23 +79,13 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>28.0-jre</version>
+            <version>${guava.version}</version>
         </dependency>
         <!-- Cron4j调度框架,且只支持分、时、天、月和周，不支持秒 -->
         <dependency>
             <groupId>it.sauronsoftware.cron4j</groupId>
             <artifactId>cron4j</artifactId>
-            <version>2.2.5</version>
-        </dependency>
-        <dependency>
-            <groupId>javassist</groupId>
-            <artifactId>javassist</artifactId>
-            <version>3.12.1.GA</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.ben-manes.caffeine</groupId>
-            <artifactId>caffeine</artifactId>
-            <version>2.6.2</version>
+            <version>${cron4j.version}</version>
         </dependency>
         <dependency>
             <groupId>net.sf.ehcache</groupId>

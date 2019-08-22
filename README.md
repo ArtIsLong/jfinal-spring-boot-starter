@@ -63,3 +63,19 @@ jfinal:
   show-sql: true
 ```
 
+## 其他配置
+
+~~~yaml
+jfinal:
+	dev-mode: true
+	date-pattern: yyyy-MM-dd HH:mm:ss
+	taskInfoMap:
+    test01:
+      cron: '*/5 * * * *'
+      task: cn.hzsoftware.erp.work.cron.Test01
+      daemon: true
+      enable: true
+~~~
+
+更多配置请查看`JfinalProperties`类。
+
