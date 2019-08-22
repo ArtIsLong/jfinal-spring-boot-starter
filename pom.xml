@@ -27,9 +27,9 @@
     </licenses>
     <scm>
         <tag>master</tag>
-        <url>git@github.com:ArtIsLong/shiro-spring-boot-starter.git</url>
-        <connection>scm:git:git@github.com:ArtIsLong/shiro-spring-boot-starter.git</connection>
-        <developerConnection>scm:git:git@github.com:ArtIsLong/shiro-spring-boot-starter.git</developerConnection>
+        <url>git@github.com:ArtIsLong/jfinal-spring-boot-starter.git</url>
+        <connection>scm:git:git@github.com:ArtIsLong/jfinal-spring-boot-starter.git</connection>
+        <developerConnection>scm:git:git@github.com:ArtIsLong/jfinal-spring-boot-starter.git</developerConnection>
     </scm>
     <developers>
         <developer>
