@@ -50,15 +50,15 @@ compile 'com.github:jfinal-spring-boot-starter:1.0'
 ```yaml
 jfinal:
 	# 配置数据库方言，不配置时，默认使用MySQL方言
-  dialect: com.jfinal.plugin.activerecord.dialect.MysqlDialect
-  # 自动生成的MappingKit，必须配
-  kit-classes:
-    - model._MappingKit
-  # JFinal的SQL模板路径
-  sql-templates: 
-  	- classpath:template/*.sql
-  # 是否显示SQL
-  show-sql: true
+	dialect: com.jfinal.plugin.activerecord.dialect.MysqlDialect
+	# 自动生成的MappingKit，必须配
+	kit-classes:
+		- model._MappingKit
+	# JFinal的SQL模板路径
+	sql-templates: 
+		- classpath:template/*.sql
+	# 是否显示SQL
+	show-sql: true
 ```
 
 ## 其他配置
@@ -68,11 +68,11 @@ jfinal:
 	dev-mode: true
 	date-pattern: yyyy-MM-dd HH:mm:ss
 	taskInfoMap:
-    test01:
-      cron: '*/5 * * * *'
-      task: cn.hzsoftware.erp.work.cron.Test01
-      daemon: true
-      enable: true
+		test01:
+			cron: '*/5 * * * *'
+			task: cn.hzsoftware.erp.work.cron.Test01
+			daemon: true
+			enable: true
 ~~~
 
 更多配置请查看`JfinalProperties`类。
