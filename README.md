@@ -33,7 +33,7 @@ pom.xml
 
 ~~~xml
 <dependency>
-  <groupId>com.github</groupId>
+  <groupId>com.github.artislong</groupId>
   <artifactId>jfinal-spring-boot-starter</artifactId>
   <version>1.0</version>
 </dependency>
@@ -42,7 +42,7 @@ pom.xml
 build.gradle
 
 ~~~groovy
-compile 'com.github:jfinal-spring-boot-starter:1.0'
+compile 'com.github.artislong:jfinal-spring-boot-starter:1.0'
 ~~~
 
 ## 添加基础配置
