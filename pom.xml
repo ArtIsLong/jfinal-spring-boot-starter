@@ -116,6 +116,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.github.artislong</groupId>
+            <artifactId>spring-beans-loader</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>
