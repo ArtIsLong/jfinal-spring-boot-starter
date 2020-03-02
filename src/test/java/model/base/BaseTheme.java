@@ -17,14 +17,6 @@ public abstract class BaseTheme<M extends BaseTheme<M>> extends Model<M> impleme
 		return getInt("id");
 	}
 
-	public void setMenuId(java.lang.Integer menuId) {
-		set("menu_id", menuId);
-	}
-	
-	public java.lang.Integer getMenuId() {
-		return getInt("menu_id");
-	}
-
 	public void setTitle(java.lang.String title) {
 		set("title", title);
 	}
@@ -39,30 +31,6 @@ public abstract class BaseTheme<M extends BaseTheme<M>> extends Model<M> impleme
 	
 	public java.lang.String getDesc() {
 		return getStr("desc");
-	}
-
-	public void setFileId(java.lang.Integer fileId) {
-		set("file_id", fileId);
-	}
-	
-	public java.lang.Integer getFileId() {
-		return getInt("file_id");
-	}
-
-	public void setType(java.lang.Integer type) {
-		set("type", type);
-	}
-	
-	public java.lang.Integer getType() {
-		return getInt("type");
-	}
-
-	public void setSeq(java.lang.Integer seq) {
-		set("seq", seq);
-	}
-	
-	public java.lang.Integer getSeq() {
-		return getInt("seq");
 	}
 
 	public void setCreateTime(java.util.Date createTime) {
@@ -81,14 +49,6 @@ public abstract class BaseTheme<M extends BaseTheme<M>> extends Model<M> impleme
 		return get("update_time");
 	}
 
-	public void setOpId(java.lang.Integer opId) {
-		set("op_id", opId);
-	}
-	
-	public java.lang.Integer getOpId() {
-		return getInt("op_id");
-	}
-
 	public void setStatus(java.lang.Integer status) {
 		set("status", status);
 	}
@@ -96,27 +56,4 @@ public abstract class BaseTheme<M extends BaseTheme<M>> extends Model<M> impleme
 	public java.lang.Integer getStatus() {
 		return getInt("status");
 	}
-
-	public void setOpName(java.lang.String opName) {
-		set("op_name", opName);
-	}
-	
-	public java.lang.String getOpName() {
-		return getStr("op_name");
-	}
-
-	/**
-	 * 点击数
-	 */
-	public void setClickNum(java.lang.Integer clickNum) {
-		set("click_num", clickNum);
-	}
-	
-	/**
-	 * 点击数
-	 */
-	public java.lang.Integer getClickNum() {
-		return getInt("click_num");
-	}
-
 }

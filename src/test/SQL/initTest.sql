@@ -1,0 +1,1 @@
+CREATE TABLE `theme` (    `id` int(11) NOT NULL AUTO_INCREMENT,    `title` varchar(200) DEFAULT NULL,    `desc` varchar(1000) DEFAULT NULL,    `create_time` datetime DEFAULT NULL,    `update_time` datetime DEFAULT NULL,    `status` int(11) DEFAULT NULL,    PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;

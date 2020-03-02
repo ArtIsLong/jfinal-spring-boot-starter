@@ -14,7 +14,7 @@
 
 # 功能介绍
 
-1. 提供`JfinalScan`注解，可扫描标识类加载Bean，如加载继承了Controller、实现了IPlugin的类到Spring中
+1. 提供`BeansLoader`注解，可扫描标识类加载Bean，如加载继承了Controller、实现了IPlugin的类到Spring中
 2. 提供`RouterPath`注解，定义自定义Controller的路由controllerKey
 3. 简化JFinal的数据源，ActiveRecordPlugin默认从Spring加载DataSource
 
@@ -45,6 +45,26 @@ build.gradle
 compile 'com.github.artislong:jfinal-spring-boot-starter:1.0'
 ~~~
 
+## 添加注解配置
+
+~~~java
+@BeansLoader(
+        basePackages = "com.github.artislong",
+        markerInterfaces = {
+                Interceptor.class,
+                Routes.class,
+                Handler.class,
+                Render.class
+        },
+        annotationClass = RouterPath.class)
+@SpringBootApplication
+public class JfinalApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(JfinalApplication.class, args);
+    }
+}
+~~~
+
 ## 添加基础配置
 
 ```yaml
@@ -59,6 +79,8 @@ jfinal:
     - classpath:template/*.sql
   # 是否显示SQL
   show-sql: true
+  # 开启跨域配置
+  origin: true
 ```
 
 ## 其他配置
@@ -76,4 +98,8 @@ jfinal:
 ~~~
 
 更多配置请查看`JfinalProperties`类。
+
+**_其他常用自定义配置类，可通过JFinal正常开发，如需要增加自定义Interceptor，只需要继承Interceptor，实现自定义逻辑即可。_**
+
+更多配置请查看`SpringJfinalConfiguration`类。
 

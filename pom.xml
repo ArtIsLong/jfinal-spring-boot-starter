@@ -6,7 +6,11 @@
 
     <groupId>com.github.artislong</groupId>
     <artifactId>jfinal-spring-boot-starter</artifactId>
+<<<<<<< HEAD
     <version>1.1</version>
+=======
+    <version>2.1</version>
+>>>>>>> 2.1
 
     <name>jfinal-spring-boot-starter</name>
     <url>https://github.com/ArtIsLong/jfinal-spring-boot-starter</url>
@@ -115,6 +119,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.artislong</groupId>
+            <artifactId>spring-beans-loader</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
