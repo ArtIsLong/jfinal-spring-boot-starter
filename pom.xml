@@ -18,7 +18,7 @@
         <java.version>1.8</java.version>
         <spring-boot.version>2.1.7.RELEASE</spring-boot.version>
         <jfinal.version>4.4</jfinal.version>
-        <guava.version>28.0-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <cron4j.version>2.2.5</cron4j.version>
     </properties>
 
