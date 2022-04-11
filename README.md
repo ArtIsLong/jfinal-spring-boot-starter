@@ -7,7 +7,7 @@
 - 源码地址
   - Github:https://github.com/ArtIsLong/jfinal-spring-boot-starter.git
   - Gitee:https://gitee.com/artislong/jfinal-spring-boot-starter.git
-- 我的博客:https://www.chenmin.info
+- 我的博客:https://artislong.gitee.io
 - 简书:https://www.jianshu.com/u/46d989a94f20
 
 **自制的小工具，欢迎使用和Star，如果使用过程中遇到问题，可以提出Issue，我会尽力完善该工具**
